@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: Positivo;
+    src: url(Fuentes/Asdonuts.otf);
+}
+.titulo{
+    text-shadow: rgba(0,0,0,15);
+}
+body{
+    font-family: Positivo;
+    background: url(murito.jpg);
+    text-shadow: rgba(0,0,0,15);
+    font-size: 19px;
+    line-height: 1.2;
+    margin: 0;
+    width: 1500px;
+}
+a{
+ text-decoration: none;
+}
+
+.Banner{
+background-image: url(banner2.jpg);
+background-size: cover;
+color: rgba(216, 17, 17, 0.911);
+background-position: center;
+padding: 200px 80px 180px 50px;
+width: 1414px;
+text-align: center;
+border-radius: 0,0,5,5;
+}
+.Banner p{
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-shadow: rgba(0,0,15,10);
+}
+
+.Banner h1{
+    color: #da60d3;
+    font-size: 2.5em;
+    margin: 0;
+}
+.boton{
+    background-color: green;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    transition: 0.1s;
+    font-size: 20px;
+    font-weight: bold;
+}
+.boton :hover{
+    background-color: thistle;
+    color: violet;
+}
+h1{
+    color: #F009B7;
+    font-family: cursive;
+    text-shadow: black;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 600ms;
+    transform: scale(1.1);
+    filter: blur(0px);
+}
+h1 :hover{
+filter: contrast(250%);
+}
+h2, h3{
+    color: black;
+    font-family: monospace;
+    line-height: 220%;
+}
+.SeccionMenu{
+    text-align: center;
+}
+.SeccionMenu h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    text-decoration: solid;
+}
+.Contenedor{
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+    float: right;
+    overflow: hidden;
+    margin: 50px;
+    padding: 60px;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+.carta{
+    box-shadow: 0 0 10px rgba(0,0,0,3); 
+    border-radius: 10px;
+    padding: 4px;
+    margin:100px;
+    width: 200px;
+    height: 290px;
+    gap: 3px;
+    display: inline-block;
+    flex-grow: 1;
+}
+.carta img{
+    background-color: black;
+    width: 130px;
+    height: 130px;
+    padding: 3px;
+    margin: 30px;
+    gap: 1px;
+    display: flex;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.carta h3{
+    margin-bottom: 0;
+}
+.pie{
+    background-color: black;
+    width: 103%;
+    margin: 30;
+    padding: 20;
+    overflow: auto;
+    text-align: center;
+    border-radius: 0px,0px,25px,25px;
+}
+.pie h2{
+    color: rgb(208, 16, 214);
+    font-family: 'Kaushan Script', cursive;
+    font-size: 27px;
+}
+.pie img{
+    width: 4%;
+    height: 2%;
+    object-position: right;
+}
